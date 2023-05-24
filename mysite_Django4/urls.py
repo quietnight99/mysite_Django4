@@ -24,6 +24,6 @@ app所属的二级路由可以根据自己的需要随意编写，不会和其�
 """
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('control/', admin.site.urls),
     path('polls/', include('polls.urls'))
 ]
